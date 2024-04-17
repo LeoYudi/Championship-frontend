@@ -1,0 +1,34 @@
+.position {
+  width: 100%;
+  text-align: center;
+  height: 3rem;
+  padding: 0.45rem;
+  box-sizing: border-box;
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+
+  .placement {
+    width: 15%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .name {
+    width: calc(65%);
+    text-align: start;
+  }
+
+  .score {
+    width: 15%;
+    font-weight: bold;
+  }
+}

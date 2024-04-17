@@ -1,3 +1,17 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "quotes": ["error", "single"],
+    "quote-props": ["error", "single"],
+    "jsx-quotes": ["error", "single"],
+    "import/no-unresolved": 0,
+    "indent": ["error", 2],
+    "object-curly-spacing": ["error", "always"],
+    "max-len": 0,
+    "padded-blocks": 0,
+    "new-cap": 0,
+    "arrow-parens": 0,
+    "curly": 0,
+    "camelcase": 0
+  }
 }

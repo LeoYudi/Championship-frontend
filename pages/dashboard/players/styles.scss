@@ -1,0 +1,13 @@
+.dashboard-players-page {
+  padding: 10px;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

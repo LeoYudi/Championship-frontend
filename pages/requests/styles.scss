@@ -1,0 +1,48 @@
+.requests-page {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .header-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    background-color: #1976d2;
+
+    .back-button {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+    }
+
+    .title {
+      word-break: keep-all;
+      font-size: 1.5rem;
+      font-weight: bold;
+      width: 100%;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+  }
+
+}

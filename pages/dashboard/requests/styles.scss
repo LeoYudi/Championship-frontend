@@ -1,0 +1,64 @@
+.dashboard-requests-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .row {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      border-top: 2px solid #ccc;
+
+      &.header {
+        border-top: 0;
+        font-weight: bold;
+      }
+
+      .index {
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+      }
+
+      .player {
+        width: 55%;
+        padding: 10px;
+      }
+
+      .placement {
+        width: 10%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .actions {
+        width: 25%;
+        display: flex;
+        padding: 10px;
+        justify-content: space-evenly;
+
+        .action {
+          cursor: pointer;
+          position: relative;
+        }
+      }
+    }
+
+    .empty-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      border-top: 2px solid #ccc;
+    }
+  }
+
+
+}
