@@ -55,4 +55,14 @@
     box-sizing: border-box;
     padding: 20px;
   }
+
+  @media (min-width: 600px) {
+    .container {
+      height: calc(100vh - 80px);
+    }
+
+    .footer-cta {
+      display: none;
+    }
+  }
 }
