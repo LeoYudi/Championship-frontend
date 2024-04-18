@@ -36,7 +36,7 @@ const AnimatedPositions = ({ children }: any) => {
 
             requestAnimationFrame(() => {
               domNode.style.transform = '';
-              domNode.style.transition = "500ms";
+              domNode.style.transition = "700ms";
             })
           });
       });

@@ -20,7 +20,7 @@ export function NotificationProvider({ children }: { children: ReactNode }) {
 
   return (
     <NotificationContext.Provider value={{ notificate }}>
-      <Snackbar open={isOpen} autoHideDuration={6000} onClose={() => setIsOpen(false)} anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}>
+      <Snackbar open={isOpen} autoHideDuration={6000} onClose={() => setIsOpen(false)} anchorOrigin={{ vertical: 'top', horizontal: 'center' }} sx={{ marginTop: '80px' }}>
         <Alert severity={severity} variant='filled' onClose={() => setIsOpen(false)}>
           {message}
         </Alert>
